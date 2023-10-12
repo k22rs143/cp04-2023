@@ -71,6 +71,7 @@
 
     button{
         color: blue;
+        font-family: 'Times New Roman', Times, serif;
     }
 
     input[type=number] {text-align: right;}
