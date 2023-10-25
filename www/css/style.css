@@ -1,6 +1,6 @@
 /**/
     #minuteStr {
-        color: #ff0000;
+        color: #e5ea59;
         font-size: 20px;
         text-align: left;
         position:absolute; top:210px; 
@@ -8,7 +8,7 @@
     }
     
     #secondStr {
-        color: #ff0000;
+        color: #e5ea59;
         font-size: 10px;
         text-align: left;
         position:absolute; top:250px; 
@@ -17,7 +17,7 @@
     }
 
     #remain {
-        color: #ff0000;
+        color: #e5ea59;
         font-size: 20px;
         text-align: center;
         position:absolute; top:310px; 
@@ -26,7 +26,7 @@
     }
     
     #time {
-        color: #ff0000;
+        color: #e5ea59;
         font-size: 20px;
         text-align: center;
         position:absolute; top:340px; 
@@ -63,7 +63,7 @@
     }
 
     #btnC {
-        font-size: 10px;
+        font-size: 20px;
         position:absolute; top:380px; left:70%; width:28%; height:60px; 
         background-color: yellow;
         color: green;
