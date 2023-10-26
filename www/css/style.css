@@ -45,7 +45,7 @@
         font-size: 40px;
         text-align: center;
         position:absolute; top:10px; 
-        left:10px; right:10px;
+        left:100px;
     }
     
     #btnA {
@@ -68,6 +68,13 @@
         background-color: yellow;
         color: green;
     }
+    #btnD{
+        font-size: 20px;
+        position: absolute; top:530px; left:35%; width:30%;
+        height: 70px;
+        background-color: greenyellow;
+        color: green;
+    }
     
     #minute {
         font-size: 30px;
@@ -87,6 +94,12 @@
         color: blue;
         font-family: 'Times New Roman', Times, serif;
         border-radius: 100px;
+    }
+    #canvas2{
+        color: #ffffff;
+        font-size: 40px;
+        text-align: center;
+        position: absolute; top:550px; left: 55px;
     }
 
     input[type=number] {text-align: right;}
