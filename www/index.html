@@ -180,6 +180,11 @@
         audio.src="inu.mp3";
         audio.play();
     }
+    function alarm2(){
+        var audio2=new Audio();
+        audio2.src="neko.mp3";
+        audio2.play();
+    }
     
     // ButtonAがクリックされた時の処理
     function btnAClick(e){
@@ -202,12 +207,13 @@
     }
 
     function btnDClick(e){
+        alarm2();
         var canvas=$("#canvas2")[0];
         var ctx=canvas2.getContext("2d");
         var img2 =new Image();
         img2.src="neko.png";
         img2.onload=function(){
-            ctx.drawImage(img2,0,0,300,300);
+            ctx.drawImage(img2,0,0,200,200);
         };
     }
     

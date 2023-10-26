@@ -97,9 +97,9 @@
     }
     #canvas2{
         color: #ffffff;
-        font-size: 40px;
+        font-size: 50px;
         text-align: center;
-        position: absolute; top:550px; left: 55px;
+        position: absolute; top:600px; left: 75px;
     }
 
     input[type=number] {text-align: right;}
